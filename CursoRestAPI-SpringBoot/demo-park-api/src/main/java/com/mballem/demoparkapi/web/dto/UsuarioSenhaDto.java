@@ -1,4 +1,5 @@
 package com.mballem.demoparkapi.web.dto;
+
 import lombok.*;
 
 @Getter
@@ -6,9 +7,9 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class UsuarioResponseDto {
 
-    private Long id;
-    private String username;
-    private String role;
+public class UsuarioSenhaDto {
+    private String senhaAtual;
+    private String novaSenha;
+    private String confirmaSenha;
 }
